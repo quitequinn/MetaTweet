@@ -10,7 +10,7 @@ Run Script
 ```
 cd ../filesLocation
 chmod u+rwx metaTweet.min.sh
-metaTweet.min.sh
+./metaTweet.min.sh
 ```
 or
 
