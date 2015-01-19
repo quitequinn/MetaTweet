@@ -1,7 +1,7 @@
 #!/bin/bash
 A="0";C=0;D=0;
 while :; do
-	E=$(t update "This tweet is the best tweet https://twitter.com/notnowwww/status/$A");D=${E[@]:51:18}
+	E=$(t update "This tweet is the best tweet https://twitter.com/quitequinn/status/$A");D=${E[@]:51:18}
 	if [ $A -eq $D ]; then
 		exit
 	fi

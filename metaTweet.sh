@@ -4,7 +4,7 @@ num1save=0
 num1=0
 
 while :; do
-	TWEET=$(t update "This tweet is the best tweet https://twitter.com/notnowwww/status/$URL")
+	TWEET=$(t update "This tweet is the best tweet https://twitter.com/quitequinn/status/$URL")
 	num1=${TWEET[@]:51:18}
 	if [ $URL -eq $num1 ]; then
 		exit
