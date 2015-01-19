@@ -1,3 +1,9 @@
+#!/bin/bash
+URL="0"
+SUCCESS=0
+num1save=0
+num1=0
+
 until [ $SUCCESS -eq 1 ]; do
 	TWEET=$(t update "This tweet is the best tweet https://twitter.com/notnowwww/status/$URL")
 	num1=${TWEET[@]:51:18}
